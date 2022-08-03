@@ -1,0 +1,48 @@
+body {
+  background-color:#000;
+  color:#f68f19;
+  font-weight:700;
+  font-family:"Play",sans-serif
+}
+.card {
+  color:#000;
+  background-color:#f68f19;
+  border:1px solid #fff
+}
+.cardDino {
+  height:467px
+}
+td {
+  color:#000
+}
+.btn{
+  color:#032654
+}
+.btnd{
+  margin-left:5px;
+  margin-bottom:5px
+}
+tr {
+  border-bottom:1px solid #333
+}
+.form-control::-webkit-input-placeholder {
+  color:#f06203
+}
+.form-control:-ms-input-placeholder {
+  color:#f06203
+}
+.form-control::placeholder {
+  color:#f06203
+}
+@media only screen and (max-width:600px) {
+  .btnd {
+      width:100%;
+      margin-bottom:5px
+  }
+  .cardDino {
+      height:auto
+  }
+  .card,.cardDino{
+      margin-bottom:10px
+  }
+}
